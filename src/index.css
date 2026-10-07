@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #E6C200 0%, #FFD700 100%);
+}
+
+/* Di file CSS global */
+.shadow-gold {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Untuk memberikan padding pada body agar konten tidak tertutup navbar */
+body {
+  padding-top: 80px;
+}
